@@ -1,8 +1,8 @@
 package main
 
 import (
-	fnc "user/internal/functions"
-	st "user/storage"
+	fnc "github.com/akramov1ch/user/internal/functions"
+	st "github.com/akramov1ch/user/storage"
 )
 
 func main() {
