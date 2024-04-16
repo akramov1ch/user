@@ -7,11 +7,11 @@ import (
 	"os"
 	"strconv"
 	"strings"
-	st "user/storage"
+	st "github.com/akramov1ch/user/storage"
 )
 
 func UserInfo(users *[]st.User) {
-	file, err := os.Open("/home/shaxboz/Downloads/15.Interface/storage/sample.txt")
+	file, err := os.Open("github.com/akramov1ch/user/sample.txt")
 	if err != nil {
 		fmt.Println("Fileni ochishda xatolik yuz berdi:", err)
 		log.Fatal(err)
